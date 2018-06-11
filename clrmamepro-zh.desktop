@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=clrmamepro-zh
+Comment=A ROM manager
+Exec=clrmamepro-zh
+Icon=clrmamepro-zh
+Categories=Utility;
+StartupNotify=true

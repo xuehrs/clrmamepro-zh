@@ -1,0 +1,26 @@
+#!/bin/bash
+unset WINEPREFIX
+export WINEDLLOVERRIDES="mscoree,mshtml="
+
+#解决中文字体乱码问题
+wine regedit /usr/share/clrmamepro-zh/wqy-microhei.reg
+
+if [ ! -d "$HOME"/.clrmamepro-zh ] ; then
+   mkdir -p "$HOME"/.clrmamepro-zh
+   ln -s /usr/share/clrmamepro-zh/cmpro64.exe "$HOME"/.clrmamepro-zh/cmpro64 || exit 1
+   ln -s /usr/share/clrmamepro-zh/engine.cfg "$HOME"/.clrmamepro-zh/engine.cfg || exit 1
+   ln -s /usr/share/clrmamepro-zh/setformat.xml "$HOME"/.clrmamepro-zh/setformat.xml || exit 1
+   ln -s /usr/share/clrmamepro-zh/stats.ini "$HOME"/.clrmamepro-zh/stats.ini || exit 1
+   ln -s /usr/share/clrmamepro-zh/unrar64.dll "$HOME"/.clrmamepro-zh/unrar64.dll || exit 1
+   ln -s /usr/share/clrmamepro-zh/update.dll "$HOME"/.clrmamepro-zh/update.dll || exit 1
+   ln -s /usr/share/clrmamepro-zh/urls.ini "$HOME"/.clrmamepro-zh/urls.ini || exit 1
+   ln -s /usr/share/clrmamepro-zh/version64.ini "$HOME"/.clrmamepro-zh/version64.ini || exit 1
+fi
+# 7z_64.dll added in 4.014
+if [ ! -e "$HOME"/.clrmamepro-zh/7z_64.dll ] ; then
+   ln -s /usr/share/clrmamepro-zh/7z_64.dll "$HOME"/.clrmamepro-zh/7z_64.dll || exit 1 ;
+fi
+
+wine "$HOME"/.clrmamepro-zh/cmpro64 "$@"
+
+
