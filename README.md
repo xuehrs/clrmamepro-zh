@@ -1,5 +1,11 @@
 #这是clrmamepro的中文版
 
+只是通过PKGBUILD脚本定制arch linux的包–>>clrmamepro-zh
+
+使用方法：进入PKGBUILD所在的目录，直接makepkg。必要时，可以自行删除src和pkg文件
+
+
+
 内容来源：http://f.ppxclub.com/686177-1-1
 
 感谢某人lo585983所做的版本～～～
