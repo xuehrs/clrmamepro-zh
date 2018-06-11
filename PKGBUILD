@@ -1,5 +1,6 @@
 #本工具是基于aur的clrmamepro脚本修改而成的，主要特点就是支持中文、缺点就是基于wine平台。
-#bug联系736363980@qq.com
+#恩恩，他只是mame街机游戏rom管理工具。cmp4034_64-cht.tar.gz这个包是基于cmp4034_64-cht.7z打包的，未做任何修改，请放心使用
+#bug联系736363980@qq.com 或者 github.com/xuehrs/clrmamepro-zh
 
 
 pkgname=clrmamepro-cn-zh
@@ -12,7 +13,7 @@ license=('custom')
 depends=('wine'
 	  'aria2')
 makedepends=('icoutils')
-source=("cmp4034_64-cht.tar.gz"
+source=("https://raw.githubusercontent.com/xuehrs/clrmamepro-zh/master/cmp4034_64-cht.tar.gz"
         "clrmamepro-zh"
         "clrmamepro-zh.desktop"
 	 "wqy-microhei.reg")

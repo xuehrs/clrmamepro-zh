@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+
+<!-- Usable variables in string attribute:
+  %y - year
+  %m - manufacturer
+  %s - source file
+  %d - description
+  %f - set name
+  %c - parent rom set name
+  %C - parent sample set name
+  %b - bios set name
+  %A - first character of description
+  %a - first character of set name
+  %Z - "0-9" in case of first description character is a number, otherwise description
+  %z - "0-9" in case of first set name character is a number, otherwise set name
+  %U - currently selected URL (Popupmenu -> WWW Open -> Set URL) from urls.ini file
+  %u - currently selected URL Extension (Popupmenu -> WWW Open -> Set URL) from urls.ini file
+-->
+
+<SetFormat>
+  <Format name="Sets" pre="" post="" separator="&#xd;&#xa;" string="%f"/>
+  <Format name="CSV" pre="&quot;Name&quot;, &quot;Description&quot;, &quot;Manufacturer&quot;, &quot;CloneOf&quot;, &quot;SampleOf&quot;&#xd;&#xa;" post="" separator="&#xd;&#xa;" string="&quot;%f&quot;, &quot;%d&quot;, &quot;%m&quot;, &quot;%c&quot;, &quot;%C&quot;"/>
+  <Format name="Newsbin" pre="" post="" separator="|" string="%f"/>
+  <Format name="Forte Agent (Global-Search Input)" pre="subject: (&quot;" post="&quot;)" separator="&quot; or &quot;" string="%f"/>
+</SetFormat>

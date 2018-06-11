@@ -1,0 +1,1 @@
+You should place your fastscans in this folder.

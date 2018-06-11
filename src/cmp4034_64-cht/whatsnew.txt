@@ -1,0 +1,10 @@
+4.034
+fixed: due to a cache flag error, in non-merged mode, cmpro took merge attribute information for names into account which is wrong
+fixed: setinfo, falsely hide empty parent set and its clones in tree when parent is empty but clones got content
+fixed: scanner, falsely list empty parents set in full merged mode as wrong named when parent is empty
+fixed: scanner, falsely list empty parent set in full merged, multi-software list mode as missing when set exists in various software lists
+fixed: miss list generator falsely lists sampleonly sets when they only reference parent samples
+fixed: scanner, falsely show wrong case set messages when missing option is turned off
+misc:  allow romclones to be sampleparents
+misc:  switched to visual studio 2017 (also for updater)
+misc:  updated zipArchive lib to 4.6.5, 7z sdk to 18.01

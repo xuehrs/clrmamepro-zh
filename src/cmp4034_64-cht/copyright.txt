@@ -1,0 +1,62 @@
+Copyright:
+
+clrmame, clrmame For Windows & clrmamepro were written by Roman Scherzer in 1997 - 2018. All rights reserved.
+
+This program is FREEWARE !
+
+This means that you are allowed to copy this program as long as you provide the full archive.
+It's not allowed to modify the archive or the program in any way. This includes: Renaming, recompiling, disassembling!
+clrmamepro will do reading and writing operations on your harddisk. I'm not responsible for any kind of data loss which may be caused by clrmamepro.
+You use this program on your very own risk !
+
+Legal Usage
+
+You're not allowed to use clrmamepro for managing filesets and files which you don't legally own.
+This also includes building up collections of such files. Don't distribute clrmamepro with any extra files, especially not with ROM images!
+Any similarities of the clrmamepro software in name, look or usage to other existing programs is purely coincidental.
+
+3rd party code
+
+For md5 and sha1 calculation Mordechai T. Abzug's and Dominik Reichl's implementation are used. These routines are public domain.
+The currently used buttonbar and animation is (C) by Alex Schuetz.
+For zipsupport clrmamepro uses Tadeusz Dracz's ZipArchive C++ classes the clrmamepro author owns a full version for.
+The sources are freely available from http://software.artpol.com.pl/ on the Internet.
+ 
+Licence Information about unrar.dll:
+ 
+The unrar.dll library is freeware. This means:
+1. All copyrights to RAR and the unrar.dll are exclusively owned by the author - Alexander Roshal.
+2. The unrar.dll library may be used in any software to handle RAR archives without limitations free of charge.
+3. THE RAR ARCHIVER AND THE UNRAR.DLL LIBRARY ARE DISTRIBUTED "AS IS". NO WARRANTY OF ANY KIND IS EXPRESSED OR IMPLIED. YOU USE AT
+YOUR OWN RISK. THE AUTHOR WILL NOT BE LIABLE FOR DATA LOSS, DAMAGES, LOSS OF PROFITS OR ANY OTHER KIND OF LOSS WHILE USING OR MISUSING
+THIS SOFTWARE. Thank you for your interest in RAR and unrar.dll. Alexander L. Roshal
+
+Licence Information about 7Zip:
+
+clrmamepro uses the unmodified freely available LZMA SDK package which can be downloaded from http://www.7-zip.org/sdk.html to support 7z files.
+
+LZMA SDK is available under any of the following licenses:
+
+1. GNU Lesser General Public License (GNU LGPL)
+2. Common Public License (CPL)
+3. Simplified license for unmodified code (read SPECIAL EXCEPTION)
+4. Proprietary license
+
+It means that you can select one of these four options and follow rules of that license.
+
+SPECIAL EXCEPTION: Igor Pavlov, as the author of this code, expressly permits you to statically or dynamically link your code (or bind by
+name) to the files from LZMA SDK without subjecting your linked code to the terms of the CPL or GNU LGPL. Any modifications or additions to
+files from LZMA SDK, however, are subject to the GNU LGPL or CPL terms.
+SPECIAL EXCEPTION allows you to use LZMA SDK in applications with closed code, while you keep LZMA SDK code unmodified.
+SPECIAL EXCEPTION #2: Igor Pavlov, as the author of this code, expressly permits you to use LZMA SDK 4.43 under the same terms and conditions
+contained in the License Agreement you have for any previous version of LZMA SDK developed by Igor Pavlov.
+SPECIAL EXCEPTION #2 allows owners of proprietary licenses to use latest version of LZMA SDK as update for previous versions.
+GNU LGPL and CPL are pretty similar and both these licenses are classified as free software licenses at http://www.gnu.org/ and OSI-approved
+at http://www.opensource.org/.
+LZMA SDK also can be available under a proprietary license which can include:
+
+1. Right to modify code from LZMA SDK without subjecting modified code to the terms of the CPL or GNU LGPL
+2. Technical support for LZMA SDK via email
+
+To request such proprietary license or any additional consultations, send email message from page for support: Send message to LZMA developer
+Source code of 7-Zip is released under the terms of the GNU LGPL. You can download source code of 7-Zip at 7-Zip's Source Forge Page

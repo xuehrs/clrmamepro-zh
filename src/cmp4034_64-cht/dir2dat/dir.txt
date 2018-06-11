@@ -1,0 +1,1 @@
+You should place your dir2dat saved settings in this folder.
