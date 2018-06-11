@@ -11,7 +11,7 @@ arch=('any')
 url="http://f.ppxclub.com/686177-1-1"
 license=('custom')
 depends=('wine'
-	  'aria2')
+	  'wqy-microhei')
 makedepends=('icoutils')
 source=("https://raw.githubusercontent.com/xuehrs/clrmamepro-zh/master/cmp4034_64-cht.tar.gz"
         "clrmamepro-zh"
